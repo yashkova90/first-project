@@ -1,0 +1,52 @@
+.header {
+    background: #F2F2F2;
+    position: relative;
+    min-height: 600px;
+    max-height: 756px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+ }
+
+ .header__title {
+    font-weight: 600;
+    font-size: 102px;
+    line-height: 96px;
+    width: 730px;
+    margin-left: 64px;
+    z-index: 2;
+ }
+
+ .header__subtitle {
+    width: 388px;
+    height: 75px;
+    bottom: 30px;
+    left: 64px;
+    position: absolute;
+    z-index: 2;
+ }
+
+ .header__square-pic {
+    background: #2F80ED;
+    position: absolute;
+    width: 568px;
+    height: 568px;
+    right: 0px;
+    top: 64px;
+
+ }
+
+ .header__main-illustration {
+    position: absolute;
+    width: 765px;
+    height: 608px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background: url("../img/boy-and-dog.png");
+ }
+
+ .header__link {
+     color:#2F80ED;
+ }
