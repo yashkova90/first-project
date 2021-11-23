@@ -21,6 +21,7 @@
     height: 700px;
     display: flex;
     align-items: center;
+    overflow: hidden;
  }
 
  .header__title {
@@ -60,8 +61,9 @@
     height: 568px;
     right: 0px;
     top: 64px;
-
+    
  }
+
  .header__main-illustration {
     position: absolute;
     width: 765px;
@@ -76,7 +78,7 @@
      color:#2F80ED;
  }
 
- .section { margin-top: 100px; }
+.section { margin-top: 100px; }
 
 .section-description {
     display: flex;
@@ -170,6 +172,20 @@
     font-size: 18px;
     line-height: 128%;
     text-align: center;
+ }
+
+ .video__iframes {
+   display:flex;
+   justify-content: space-between;
+   flex-direction: row;
+   width: 1050px;
+   margin: 50px auto 0px auto;
+
+ }
+
+ .video__iframe {
+   width: 515px;
+   height: 316px;
  }
 
 .section-digits {
