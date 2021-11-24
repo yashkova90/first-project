@@ -1,0 +1,44 @@
+.feynman {
+    position: relative;
+    padding-top: 100px;
+    margin: 0px auto;
+    height: 843px;
+}
+
+.feynman__title {
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 115%;
+    text-align: center;
+    width: 648px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.feynman__subtitle {
+    font-size: 36px;
+    line-height: 51px;
+    text-align: center;
+    margin: 70px auto 0px auto;
+    position: relative;
+    z-index: 1;
+    width: 370px;
+}
+
+.feynman_pic {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    color: #2F80ED;
+    font-size: 36px;
+    line-height: 51px;
+    text-align: right;
+
+}

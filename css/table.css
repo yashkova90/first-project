@@ -39,6 +39,8 @@
     padding-top: 80px;
     flex-wrap: wrap;
     gap: 80px 25px;
+    position: relative;
+    z-index: 1;
   }
 
   .table__cell_theme_dark {
